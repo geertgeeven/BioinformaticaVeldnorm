@@ -17,7 +17,7 @@ graph TD;
     A[Software issue]-->B[Did it cause a delay in producing a diagnosis];
     A-->C[wrong diagnosis];
     A-->D[Nope];
-    B-->D;
-    C-->D;
+    B-->E[QMS report non-conforming work];
+    C-->E;
 ```
 
