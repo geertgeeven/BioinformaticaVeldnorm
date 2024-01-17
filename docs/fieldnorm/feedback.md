@@ -16,8 +16,9 @@ Here is a simple flow chart:
 graph TD;
     A[Software issue]-->B[Did it cause a delay in producing a diagnosis];
     A-->C[wrong diagnosis];
-    A-->D[Nope];
+    A-->D[Software still running];
     B-->E[QMS report non-conforming work];
     C-->E;
+    D-->F[Report issue with Bioinf];
 ```
 
