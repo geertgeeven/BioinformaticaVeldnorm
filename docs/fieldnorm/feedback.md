@@ -14,9 +14,9 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    A[Software issue]-->B[Did it cause a delay in producing a diagnosis ( missed deadline ) ? ];
-    A-->C[Did it cause a missed or wrong diagnosis for a patient ?];
-    A-->D[];
+    A[Software issue]-->B[Did it cause a delay in producing a diagnosis];
+    A-->C;
+    A-->D;
     B-->D;
     C-->D;
 ```
