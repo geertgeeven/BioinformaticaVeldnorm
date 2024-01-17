@@ -9,3 +9,14 @@ Feedback to bioinformaticians can include different items:
 A procedure should be documented about how feedback can be send to the bioinformatics team; i.e. email, ticketing system, meetings etc.
 Most Bioinformaticians work with a ticketing system to prioritise their work items.
 In general, the medical laboratory has a system in place to handle feedback and non conforming work. The bioinformaticians will use that system. However, once it comes to development of code, it is allowed to follow the ticketing system of the bioinformatics team. Make sure that there is a link between the issue of the bioinformics team and the id (?) of the laboratory.
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
