@@ -14,7 +14,7 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    'Software issue'-->B;
+    A[Software issue]-->B;
     A-->C;
     B-->D;
     C-->D;
